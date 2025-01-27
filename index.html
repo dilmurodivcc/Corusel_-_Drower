@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel & Drawer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="drawer-toggle">☰</button>
+    <div class="drawer">
+      <div class="drawer-overlay"></div>
+      <div class="drawer-content">
+        <button class="drawer-close">✖ Close</button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section>
+      <!-- Carousel -->
+      <div class="carousel">
+        <div class="carousel-wrapper">
+          <div class="carousel-item">1</div>
+          <div class="carousel-item">2</div>
+          <div class="carousel-item">3</div>
+        </div>
+      </div>
+      <button class="carousel-btn prev">&lt;</button>
+      <button class="carousel-btn next">&gt;</button>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

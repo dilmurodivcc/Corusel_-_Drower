@@ -14,9 +14,7 @@ drawerClose.addEventListener('click', () => {
 
 drawerOverlay.addEventListener('click', () => {
   drawer.classList.remove('open');
-});
-
-// Carousel Functionality
+})
 const carouselWrapper = document.querySelector('.carousel-wrapper');
 const items = document.querySelectorAll('.carousel-item');
 const prevBtn = document.querySelector('.carousel-btn.prev');
